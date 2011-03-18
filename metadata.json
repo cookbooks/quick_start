@@ -1,71 +1,71 @@
 {
-    "recommendations": {
-    },
-    "attributes": {
-      "quick_start/deep_thought": {
-        "required": "optional",
-        "calculated": false,
-        "choice": [
+  "name": "quick_start",
+  "description": "Example cookbook for quick_start wiki document",
+  "long_description": "",
+  "maintainer": "Opscode, Inc.",
+  "maintainer_email": "cookbooks@opscode.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "redhat": [
 
-        ],
-        "default": "If a tree falls in the forest...",
-        "type": "string",
-        "recipes": [
+    ],
+    "fedora": [
 
-        ],
-        "description": "A deep thought",
-        "display_name": "Quick Start Deep Thought"
-      }
-    },
-    "maintainer": "Opscode, Inc.",
-    "suggestions": {
-    },
-    "dependencies": {
-    },
-    "maintainer_email": "cookbooks@opscode.com",
-    "conflicting": {
-    },
-    "platforms": {
-      "openbsd": [
+    ],
+    "centos": [
+
+    ],
+    "ubuntu": [
+
+    ],
+    "debian": [
+
+    ],
+    "macosx": [
+
+    ],
+    "freebsd": [
+
+    ],
+    "openbsd": [
+
+    ],
+    "solaris": [
+
+    ]
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+    "quick_start/deep_thought": {
+      "display_name": "Quick Start Deep Thought",
+      "description": "A deep thought",
+      "default": "If a tree falls in the forest...",
+      "choice": [
 
       ],
-      "debian": [
-
-      ],
-      "solaris": [
-
-      ],
-      "centos": [
-
-      ],
-      "fedora": [
-
-      ],
-      "macosx": [
-
-      ],
-      "freebsd": [
-
-      ],
-      "ubuntu": [
-
-      ],
-      "redhat": [
+      "calculated": false,
+      "type": "string",
+      "required": "optional",
+      "recipes": [
 
       ]
-    },
-    "license": "Apache 2.0",
-    "version": "0.8.0",
-    "providing": {
-    },
-    "recipes": {
-      "quick_start": "Quick start example cookbook"
-    },
-    "replacing": {
-    },
-    "name": "quick_start",
-    "description": "Example cookbook for quick_start wiki document",
-    "groupings": {
-    },
-    "long_description": ""
-  }
+    }
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "quick_start": "Quick start example cookbook"
+  },
+  "version": "0.8.0"
+}
